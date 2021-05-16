@@ -1,4 +1,4 @@
-# programowanie
+# Lotto
 
 Repozytorium zawiera plik z kodem, który służy do zasymulowania gry w Lotto.
 Celem projektu jest stworzenie programu, który wygeneruje losowe liczby, które mogłyby być użyte w grze Lotto.
