@@ -22,8 +22,8 @@ Ostatnim etapem jest uporządkowanie liczb w kolejności rosnącej, tylko ze wzg
 W drugim pliku znajduje się kod tworzący stronę internetową, w której skupiliśmy się na zajęciach na rozbudowaniu interaktywnego menu, z którego użytkownik może
 wygodnie wybierać różne opcje, których w danej chwili poszukuje. 
 
-![Zdjęcie 1](./images/1.png)
-![Zdjęcie 2](./images/2.png)
+![Zdjęcie 1](./obrazy/1.png)
+![Zdjęcie 2](./obrazy/2.png)
 
 ## Status projektu
  Projekt został ukończony i jest dostępny do powszechnego użycia.
