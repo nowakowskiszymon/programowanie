@@ -1,0 +1,46 @@
+using System;
+
+namespace _12
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //LOTTO
+
+            Random generator = new Random();
+            int[] zestaw = new int[6];
+            int tmp;
+
+            for (int i = 0; i < zestaw.Length -1; i++)
+            {
+                zestaw[i] = generator.Next(1, 50); 
+
+                for (int j = 0; j < i; j++)
+                    if (zestaw[i] == zestaw[j]) 
+                        i--;
+            }
+         
+            for (int j = 0; j < zestaw.Length - 1; j++) 
+            {
+                for (int i = 0; i < zestaw.Length - 1; i++)
+                {
+
+
+                    if (zestaw[i] > zestaw[i + 1])
+                    {
+                        tmp = zestaw[i];
+                        zestaw[i] = zestaw[i + 1];
+                        zestaw[i + 1] = tmp;
+
+                    }
+                }
+            }
+                foreach (int liczba in zestaw)
+                    Console.Write("{0}, ", liczba);
+
+            
+           Console.ReadKey();
+        }
+    }
+}
