@@ -10,7 +10,7 @@ Celem projektu jest stworzenie programu, który wygeneruje losowe liczby, jakie 
 * [Status projektu](#status-projektu)
 
 ## Technologie
-Program w całości został wykonany za pomocą języka C++.
+Program w całości został wykonany za pomocą języka C#.
 
 ## Opis działania 
 Dzięki generatorowi program generuje określoną liczbę cyf i zapisuje je w tablicy.
